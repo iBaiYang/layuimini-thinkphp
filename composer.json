@@ -1,18 +1,18 @@
 {
-    "name": "zhongshaofa/easyadmin",
+    "name": "laytap",
     "description": "基于ThinkPHP6.0和layui的快速开发的后台管理系统。",
     "type": "project",
     "keywords": [
-        "easyadmin",
+        "layui",
         "thinkphp",
         "admin"
     ],
-    "homepage": "http://easyadmin.99php.cn/",
+    "homepage": "***",
     "license": "MIT",
     "authors": [
         {
-            "name": "zhongshaofa",
-            "email": "2286732552@qq.com"
+            "name": "***",
+            "email": "***"
         }
     ],
     "require": {

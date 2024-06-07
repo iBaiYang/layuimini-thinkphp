@@ -22,9 +22,9 @@ return [
             // 数据库类型
             'type'              => Env::get('database.type', 'mysql'),
             // 服务器地址
-            'hostname'          => Env::get('database.hostname', '192.168.0.150'),
+            'hostname'          => Env::get('database.hostname', '192.168.56.108'),
             // 数据库名
-            'database'          => Env::get('database.database', 'laytp'),
+            'database'          => Env::get('database.database', 'layuimini-thinkphp'),
             // 用户名
             'username'          => Env::get('database.username', 'root'),
             // 密码
