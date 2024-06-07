@@ -1,5 +1,5 @@
 {
-    "name": "laytap",
+    "name": "baiyang/laytap",
     "description": "基于ThinkPHP6.0和layui的快速开发的后台管理系统。",
     "type": "project",
     "keywords": [
@@ -7,12 +7,12 @@
         "thinkphp",
         "admin"
     ],
-    "homepage": "***",
+    "homepage": "http://www.lezhing.com/",
     "license": "MIT",
     "authors": [
         {
-            "name": "***",
-            "email": "***"
+            "name": "author",
+            "email": "1428837023@qq.com"
         }
     ],
     "require": {

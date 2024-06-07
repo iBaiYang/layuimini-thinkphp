@@ -408,7 +408,7 @@ EOT;
 <html>
 <head>
     <meta charset="utf-8">
-    <title>安装EasyAdmin后台程序</title>
+    <title>安装LayTap后台程序</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -417,7 +417,7 @@ EOT;
 </head>
 <body>
 <h1><img src="static/common/images/logo-1.png"></h1>
-<h2>安装EasyAdmin后台系统</h2>
+<h2>安装LayTap后台系统</h2>
 <div class="content">
     <p class="desc">
         使用过程中遇到任何问题可参考
@@ -448,14 +448,14 @@ EOT;
             <div class="layui-form-item">
                 <label class="layui-form-label">数据库名称</label>
                 <div class="layui-input-block">
-                    <input class="layui-input" name="database" autocomplete="off" lay-verify="required" lay-reqtext="请输入数据库名称" placeholder="请输入数据库名称" value="easyadmin">
+                    <input class="layui-input" name="database" autocomplete="off" lay-verify="required" lay-reqtext="请输入数据库名称" placeholder="请输入数据库名称" value="laytap">
                 </div>
             </div>
 
             <div class="layui-form-item">
                 <label class="layui-form-label">数据表前缀</label>
                 <div class="layui-input-block">
-                    <input class="layui-input" name="prefix" autocomplete="off" lay-verify="required" lay-reqtext="请输入数据表前缀" placeholder="请输入数据表前缀" value="ea_">
+                    <input class="layui-input" name="prefix" autocomplete="off" lay-verify="required" lay-reqtext="请输入数据表前缀" placeholder="请输入数据表前缀" value="lt_">
                 </div>
             </div>
 
