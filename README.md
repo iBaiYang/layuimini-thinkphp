@@ -475,6 +475,10 @@ INSERT INTO `lt_system_uploadfile` VALUES ('2', 'alioss', 'image/jpeg', '/static
 INSERT INTO `lt_system_uploadfile` VALUES ('3', 'alioss', 'image/x-icon', '/static/common/images/favicon.ico', '', '', '', '0', 'image/x-icon', '0', 'ico', '', '1573612437', null, null);
 ```
 
+## 备注
+
+体验分支：exp
+
 ## EasyAdmin 相关
 
 该框架基于的框架的官方名称是 EasyAdmin，建议在EasyAdmin的基础上进行开发，本框架只是一个示例，下面是相关信息。
