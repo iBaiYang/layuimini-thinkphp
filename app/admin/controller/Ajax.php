@@ -75,6 +75,9 @@ class Ajax extends AdminController
             'file|文件'              => "require|file|fileExt:{$uploadConfig['upload_allow_ext']}|fileSize:{$uploadConfig['upload_allow_size']}",
         ];
         $this->validate($data, $rule);
+
+        $this->isDemo && $this->error('演示环境下不允许上传');
+
         try {
             $upload = Uploadfile::instance()
                 ->setUploadType($data['upload_type'])
@@ -109,6 +112,9 @@ class Ajax extends AdminController
             'file|文件'              => "require|file|fileExt:{$uploadConfig['upload_allow_ext']}|fileSize:{$uploadConfig['upload_allow_size']}",
         ];
         $this->validate($data, $rule);
+
+        $this->isDemo && $this->error('演示环境下不允许上传');
+
         try {
             $upload = Uploadfile::instance()
                 ->setUploadType($data['upload_type'])
