@@ -11,7 +11,7 @@
 use think\facade\Route;
 
 Route::redirect('/', '/admin');
-//
+
 //Route::view('/', 'welcome', [
 //    'version' => time(),
 //    'data'    => [

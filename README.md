@@ -22,9 +22,9 @@ nginx伪静态配置：
     }
 ```
 
-访问域名，进行项目初始化安装，包括数据库。
-
 将 .example.env 文件复制为 .env 文件，进行配置。
+
+访问域名，进行项目初始化安装，包括数据库创建。
 
 ## 项目特性
 
@@ -241,9 +241,9 @@ INSERT INTO `lt_system_config` VALUES ('61', 'alioss_access_key_secret', 'upload
 INSERT INTO `lt_system_config` VALUES ('62', 'alioss_endpoint', 'upload', '填你的', '阿里云oss数据中心', '0', null, null);
 INSERT INTO `lt_system_config` VALUES ('63', 'alioss_bucket', 'upload', '填你的', '阿里云oss空间名称', '0', null, null);
 INSERT INTO `lt_system_config` VALUES ('64', 'alioss_domain', 'upload', '填你的', '阿里云oss访问域名', '0', null, null);
-INSERT INTO `lt_system_config` VALUES ('65', 'logo_title', 'site', 'EasyAdmin', 'LOGO标题', '0', null, null);
+INSERT INTO `lt_system_config` VALUES ('65', 'logo_title', 'site', 'LayTap', 'LOGO标题', '0', null, null);
 INSERT INTO `lt_system_config` VALUES ('66', 'logo_image', 'site', '/favicon.ico', 'logo图片', '0', null, null);
-INSERT INTO `lt_system_config` VALUES ('68', 'site_name', 'site', 'EasyAdmin后台系统', '站点名称', '0', null, null);
+INSERT INTO `lt_system_config` VALUES ('68', 'site_name', 'site', 'LayTap后台系统', '站点名称', '0', null, null);
 INSERT INTO `lt_system_config` VALUES ('69', 'site_ico', 'site', '填你的', '浏览器图标', '0', null, null);
 INSERT INTO `lt_system_config` VALUES ('70', 'site_copyright', 'site', '填你的', '版权信息', '0', null, null);
 INSERT INTO `lt_system_config` VALUES ('71', 'site_beian', 'site', '填你的', '备案信息', '0', null, null);

@@ -22,6 +22,7 @@ class AdminConstant
 
     /**
      * 超级管理员，不受权限控制
+     * SUPER_ADMIN_ID 管理员对应ID
      */
     const SUPER_ADMIN_ID = 1;
 

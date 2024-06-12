@@ -188,9 +188,9 @@ INSERT INTO `ea_system_config` VALUES ('61', 'alioss_access_key_secret', 'upload
 INSERT INTO `ea_system_config` VALUES ('62', 'alioss_endpoint', 'upload', '填你的', '阿里云oss数据中心', '0', null, null);
 INSERT INTO `ea_system_config` VALUES ('63', 'alioss_bucket', 'upload', '填你的', '阿里云oss空间名称', '0', null, null);
 INSERT INTO `ea_system_config` VALUES ('64', 'alioss_domain', 'upload', '填你的', '阿里云oss访问域名', '0', null, null);
-INSERT INTO `ea_system_config` VALUES ('65', 'logo_title', 'site', 'EasyAdmin', 'LOGO标题', '0', null, null);
+INSERT INTO `ea_system_config` VALUES ('65', 'logo_title', 'site', 'LayTap', 'LOGO标题', '0', null, null);
 INSERT INTO `ea_system_config` VALUES ('66', 'logo_image', 'site', '/favicon.ico', 'logo图片', '0', null, null);
-INSERT INTO `ea_system_config` VALUES ('68', 'site_name', 'site', 'EasyAdmin后台系统', '站点名称', '0', null, null);
+INSERT INTO `ea_system_config` VALUES ('68', 'site_name', 'site', 'LayTap后台系统', '站点名称', '0', null, null);
 INSERT INTO `ea_system_config` VALUES ('69', 'site_ico', 'site', '填你的', '浏览器图标', '0', null, null);
 INSERT INTO `ea_system_config` VALUES ('70', 'site_copyright', 'site', '填你的', '版权信息', '0', null, null);
 INSERT INTO `ea_system_config` VALUES ('71', 'site_beian', 'site', '填你的', '备案信息', '0', null, null);
