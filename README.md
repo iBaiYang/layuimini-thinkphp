@@ -2,7 +2,7 @@
 
 ## 说明
 
-该框架是一个后台管理系统，主要使用ThinkPHP6.0 + layuimini，拥有完善的权限的管理模块以及敏捷的开发方式。
+该框架是一个后台管理系统，主要使用layuimini + ThinkPHP6.0，拥有完善的权限的管理模块以及敏捷的开发方式。
 
 ## 安装
 
@@ -22,7 +22,9 @@ nginx伪静态配置：
     }
 ```
 
-将 .example.env 文件复制为 .env 文件，进行配置。
+项目入口目录`public`。
+
+将 `.example.env` 文件复制为 `.env` 文件，进行配置。
 
 访问域名，进行项目初始化安装，包括数据库创建。
 
@@ -496,17 +498,17 @@ INSERT INTO `lt_system_uploadfile` VALUES ('3', 'alioss', 'image/x-icon', '/stat
 
 ## 参考
 
-* LAYUI MINI 官网：http://layuimini.99php.cn/
-
-* Layui 官网： https://layui.dev/
+* LAYUI MINI 官网：[http://layuimini.99php.cn](http://layuimini.99php.cn)
 
 * Layuimini：[https://github.com/zhongshaofa/layuimini](https://github.com/zhongshaofa/layuimini)
+
+* Layui 官网： [https://layui.dev](https://layui.dev)
+
+* Layui：[https://github.com/sentsin/layui](https://github.com/sentsin/layui)
 
 * ThinkPHP：[https://github.com/top-think/framework](https://github.com/top-think/framework)
 
 * Annotations：[https://github.com/doctrine/annotations](https://github.com/doctrine/annotations)
-
-* Layui：[https://github.com/sentsin/layui](https://github.com/sentsin/layui)
 
 * Jquery：[https://github.com/jquery/jquery](https://github.com/jquery/jquery)
 
